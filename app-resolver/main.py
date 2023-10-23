@@ -103,6 +103,8 @@ if __name__ == "__main__":
         start = time.time()
         banner()
 
+        print(datetime.now().strftime( "================ STARTED - %d/%m/%Y %H:%M:%S 00:00:00:00 ================") + '\n')
+
         main()
         
         now = datetime.now()
