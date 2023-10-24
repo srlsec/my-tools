@@ -24,7 +24,7 @@ def domaintoip(i):
         ip = gethostbyname(i)
         # open('ips.txt', 'a').write(ip + '\n')
     except:
-        ip = "Error"
+        ip = ""
     
     data = {
                         "domain": i,
